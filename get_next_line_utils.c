@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ffrau <ffrau@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tterribi <tterribi@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/18 19:45:05 by tterribi          #+#    #+#             */
-/*   Updated: 2022/01/26 18:47:35 by ffrau            ###   ########.fr       */
+/*   Updated: 2022/02/09 11:46:51 by tterribi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ size_t	ft_strlen(const char *str)
 		count++;
 	return (count);
 }
-
 
 char	*ft_strchr(char *s, int c)
 {
